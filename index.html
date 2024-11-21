@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .web {
+            height: 100vh;
+            background-image: url(images/bg_header.jpg);
+            padding: 25px;
+        }
+        .nav {
+            width: 80%;
+            margin: auto;
+            background: red;
+            padding: 20px;
+            display: flex;
+        }
+        .logo {
+            width: 50%;
+        }
+        .nav .menu {
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+        }
+        .menu ul{
+            display: flex;
+            align-items: center;
+        }
+        .menu ul li{
+            justify-content: end;
+            margin-right: 30px;
+            list-style: none;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .slogan {
+            text-align: center;
+            color: white;
+        }
+        .slogan h1{
+            font-size: 150px;
+            color: white;
+            margin-bottom: 30px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: bold;
+        }
+        .slogan .wedo{
+            color: red;
+        }
+        .slogan p{
+            margin-bottom: 50px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 150;
+        }
+        button{
+            height: 40px;
+            width: 150px;
+            background: red;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="web">
+        <div class="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" width="200px">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog/News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slogan">
+            <h1>Think Big. <span class="wedo">We do.</span></h1>
+            <p>Capitalise on low hanging fruit to identify a ballpark</p>
+            <button>our portfolio ></button>
+        </div>
+    </div>
+</body>
+
+</html>
